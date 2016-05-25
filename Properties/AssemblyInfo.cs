@@ -1,5 +1,4 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("QCCommon Windows Service")]
@@ -8,7 +7,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyProduct("QC Common")]
 [assembly: AssemblyCopyright("© QuantumConcepts")]
 [assembly: AssemblyTrademark("© QuantumConcepts")]
-[assembly: AssemblyVersion("1.0.1.0")]
-[assembly: AssemblyFileVersion("1.0.1.0")]
+[assembly: AssemblyVersion("1.0.2")]
+[assembly: AssemblyFileVersion("1.0.2")]
 [assembly: ComVisible(false)]
 

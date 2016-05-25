@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.ServiceProcess;
+﻿using QuantumConcepts.Common.Extensions;
 using QuantumConcepts.Common.WindowsService.UI.Forms;
-using System.Windows.Forms;
-using QuantumConcepts.Common.Extensions;
+using System;
 using System.Configuration.Install;
 using System.Reflection;
+using System.ServiceProcess;
+using System.Windows.Forms;
 
-namespace QuantumConcepts.Common.WindowsService
-{
-    internal abstract class BaseService : BaseApp
+namespace QuantumConcepts.Common.WindowsService {
+    public abstract class BaseService : BaseApp
     {
         protected const string Arg_RunOnce = "RunOnce";
         protected const string Arg_Install = "Install";
